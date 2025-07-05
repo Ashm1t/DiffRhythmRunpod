@@ -8,3 +8,25 @@ pretrained/
 ckpt
 wandb
 *.html
+
+# Large model files and directories
+g2p/sources/g2p_chinese_model/
+*.onnx
+*.safetensors
+*.bin
+*.h5
+*.pth
+*.pt
+*.pkl
+*.model
+*.pb
+
+# Output directories
+output/
+logs/
+runs/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
